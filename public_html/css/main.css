@@ -19,34 +19,34 @@
 
 /* Configurações Gerais */
 * {
+    
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: orange
 }
 
 body {
     font-family: Meticula;
+   background-image: url(/.imagens/20210408_112357.jpg);
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 75px;
     line-height: 0.95;
+    color: orange
 }
 
 p {
     font-weight: 300;
     font-size: 25px;
     line-height: 1.25;
+    color: black
 }
 
 ul {
     list-style-type: none;
-}
-
-a {
-    color: #000000;
-    text-decoration: none;
 }
 
 /* Configurações Botões */
@@ -96,15 +96,19 @@ a {
     transition: ease-in-out .2s;
 }
 
-/* Configurações Hero */
 #hero {
     display: flex;
     flex-direction: column;
 
+    background-image: url('../imagens/20210408_112357.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
 
     height: 100vh;
     padding: 0 50px;
 }
+
 
 #hero > nav {
     display: flex;
@@ -113,8 +117,8 @@ a {
 }
 
 #hero > nav > img {
-    width: 80px;
-    height: auto;
+    width: 200px;
+    height: 100px;
 }
 
 #hero > nav > ul {
@@ -178,10 +182,11 @@ a {
 }
 
 #help > header > div.line {
-    background-color: #328916;
+    background-color: yellow;
     width: 200px;
     height: 6px;
     margin: 60px 0;
+    
 }
 
 #help > main > ul {
@@ -247,48 +252,4 @@ a {
     max-width: 80%;
 
     z-index: 4;
-}
-
-#help > main > ul > li > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    height: 100%;
-
-    z-index: 1;
-}
-
-#help > main > ul > li:hover > img {
-    transform: scale(1.25);
-    transition: ease-in-out .6s;
-}
-
-#help > main > ul > li:nth-child(1) > img {
-    left: -90%;
-}
-
-#help > main > ul > li:nth-child(2) > img {
-    left: -8%;
-}
-
-#help > main > ul > li:nth-child(3) > img {
-    left: -30%;
-}
-
-/* Configurações Footer */
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    height: 100px;
-
-    background-color: #000000;
-}
-
-footer > span {
-    font-weight: 300;
-    font-size: 16px;
-    color: #ffffff;
 }
