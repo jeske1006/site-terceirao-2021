@@ -23,7 +23,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: orange
+    color: orange;
 }
 
 body {
@@ -37,6 +37,8 @@ h1 {
     line-height: 0.95;
     color: orange
 }
+
+
 
 p {
     font-weight: 300;
@@ -62,8 +64,8 @@ ul {
 }
 
 .btn.btn-primary {
-    background-color: #328916;
-    color: #ffffff;
+    background-color: orange;
+    color: white;
 
     border: none;
 
@@ -74,9 +76,9 @@ ul {
 
 .btn.btn-primary:hover {
     background-color: #ffffff;
-    color: #328916;
+    color: orange;
 
-    border: 3px solid #328916;
+    border: 3px solid orange;
 
     font-weight: 700;
 
@@ -126,25 +128,29 @@ ul {
     flex-grow: 1;
     align-items: center;
     justify-content: flex-end;
+    
 }
 
 #hero > nav > ul > li {
     margin: 0 25px;
+   
 }
 
 #hero > nav > ul > li:last-child {
     margin-right: 0;
+    
 }
 
 #hero > nav > ul > li > a {
     font-weight: 500;
     font-size: 20px;
     text-transform: uppercase;
+     color: orange;
 }
 
 #hero > nav > ul > li > a.active,
 #hero > nav > ul > li > a:not(.btn):hover {
-    color: #328916;
+    color: white;
     transition: ease-in-out .2s;
 }
 
@@ -156,7 +162,8 @@ ul {
 }
 
 #hero > main > p {
-    margin: 40px 0 80px 0;
+    margin: 40px 0 100px 0;
+    color: white;
 }
 
 /* Configurações Help */
@@ -252,4 +259,7 @@ ul {
     max-width: 80%;
 
     z-index: 4;
+}
+#help > main > h1{
+   text-transform: uppercase;
 }
