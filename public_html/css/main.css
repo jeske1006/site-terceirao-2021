@@ -1,23 +1,4 @@
-/* Importando Fontes */
-@font-face {
-    font-family: Meticula;
-    src: url(./fonts/meticula/Meticula-Regular.ttf);
-    font-weight: 300;
-}
 
-@font-face {
-    font-family: Meticula;
-    src: url(./fonts/meticula/Meticula-SemiBold.ttf);
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: Meticula;
-    src: url(./fonts/meticula/Meticula-ExtraBold.ttf);
-    font-weight: 700;
-}
-
-/* Configurações Gerais */
 * {
 
     box-sizing: border-box;
@@ -163,7 +144,9 @@ ul {
 
 #hero > main > p {
     margin: 40px 0 100px 0;
-    color: white;
+  
+    text-align: center;
+   
 }
 
 /* Configurações Help */
@@ -262,6 +245,7 @@ ul {
 }
 #help > main > h1{
     text-transform: uppercase;
+    
 }
 footer {
     display: flex;
